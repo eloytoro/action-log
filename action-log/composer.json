@@ -1,0 +1,24 @@
+{
+    "name": "eloytoro/action-log",
+    "description": "",
+    "authors": [
+        {
+            "name": "eloy",
+            "email": "etoro@4geeks.com.ve"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Eloytoro\\ActionLog": "src/",
+			"Eloytoro\\Support": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
